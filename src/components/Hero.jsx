@@ -11,10 +11,10 @@ export default function Hero() {
                     {HERO_NAME}
                 </h1>
                 <h3 className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent
-                text-4xl '>
+                sm:text-4xl text-3xl'>
                     Fontend Developer
                 </h3>
-                <p className='my-2 max-w-xl py-6 font-light tracking-tight text-neutral-400'>
+                <p className='my-2 max-w-xl py-6 font-light tracking-tight text-neutral-400 text-justify'>
                     {HERO_CONTENT}
                 </p>
             </div>

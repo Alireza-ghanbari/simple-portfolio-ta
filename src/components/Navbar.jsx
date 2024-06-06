@@ -4,7 +4,7 @@ import { FaGithub, FaInstagram, FaLinkedin, FaTwitterSquare } from "react-icons/
 
 export default function Navbar() {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6 m-8">
+    <nav className="mb-20 flex items-center sm:flex-row flex-col gap-5 sm:gap-0 justify-between py-6 m-8">
       <div className="flex items-center">
         <img src={logo} alt="" className="w-10"/>
       </div>
