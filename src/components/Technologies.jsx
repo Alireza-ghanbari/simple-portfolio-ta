@@ -23,7 +23,7 @@ export default function Technologies() {
     <div className="border-b border-neutral-900 pb-24">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: -50 }}
+        initial={{ opacity: 0, y: -70 }}
         transition={{ duration: 1.5 }}
         className="text-center text-4xl font-light my-20"
       >
